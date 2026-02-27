@@ -1,0 +1,15 @@
+name: astr3251
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - pandas
+  - astropy
+  - scipy
+  - ipympl
+  - jupyter
+  - notebook
+  - pip:
+    - git+https://github.com/sujeong-lee/ASTR3251.git
